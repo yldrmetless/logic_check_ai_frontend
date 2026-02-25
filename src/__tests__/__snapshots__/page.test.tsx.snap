@@ -72,7 +72,7 @@ exports[`Home Page matches the snapshot 1`] = `
           <span
             class="text-lg font-bold text-slate-900 tracking-tight"
           >
-            LogicCheck AI
+            LogicCheck AI APP
           </span>
         </a>
         <div
@@ -746,7 +746,7 @@ exports[`Home Page matches the snapshot 1`] = `
           <span
             class="text-slate-900 font-semibold text-sm"
           >
-            LogicCheck AI
+            LogicCheck AI APP
           </span>
         </div>
         <p

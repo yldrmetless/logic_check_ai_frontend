@@ -45,7 +45,7 @@ export default function Sidebar() {
                     <Boxes className="w-5 h-5 text-white" />
                 </div>
                 <span className="text-lg font-bold text-slate-900 tracking-tight">
-                    LogicCheck AI
+                    LogicCheck AI APP
                 </span>
             </div>
 

@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "LogicCheck AI — Validate Your Startup Idea with AI",
+  title: "LogicCheck AI APP — Validate Your Startup Idea with AI",
   description:
     "Stress-test your business logic with real-time market data, competitor scraping, and deep AI reasoning. Stop guessing, start building.",
 };

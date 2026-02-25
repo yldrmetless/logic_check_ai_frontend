@@ -56,7 +56,7 @@ export default function LoginPage() {
                         <Boxes className="w-5 h-5 text-white" />
                     </div>
                     <span className="text-xl font-bold text-slate-900 tracking-tight">
-                        LogicCheck AI
+                        LogicCheck AI APP
                     </span>
                 </div>
 
@@ -140,7 +140,7 @@ export default function LoginPage() {
 
             {/* Page Footer */}
             <p className="absolute bottom-8 text-center w-full text-xs text-slate-400">
-                © 2026 LogicCheck AI. All rights reserved.
+                © {new Date().getFullYear()} LogicCheck AI APP. All rights reserved.
             </p>
         </div>
     );

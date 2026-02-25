@@ -23,7 +23,7 @@ function Navbar() {
             <Boxes className="w-4.5 h-4.5 text-white" />
           </div>
           <span className="text-lg font-bold text-slate-900 tracking-tight">
-            LogicCheck AI
+            LogicCheck AI APP
           </span>
         </Link>
 
@@ -334,7 +334,7 @@ function Footer() {
             <Boxes className="w-3.5 h-3.5 text-white" />
           </div>
           <span className="text-slate-900 font-semibold text-sm">
-            LogicCheck AI
+            LogicCheck AI APP
           </span>
         </div>
 
