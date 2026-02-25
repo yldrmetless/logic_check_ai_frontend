@@ -80,7 +80,7 @@ exports[`Home Page matches the snapshot 1`] = `
         >
           <a
             class="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-1.5"
-            href="https://github.com/yldrmetless/LogickCheckAI"
+            href="https://github.com/yldrmetless/LogicCheckAIAPP"
             rel="noopener noreferrer"
             target="_blank"
           >
@@ -112,7 +112,7 @@ exports[`Home Page matches the snapshot 1`] = `
         >
           <a
             class="hidden sm:flex items-center gap-1.5 text-sm font-medium text-slate-700 bg-slate-50 border border-slate-200 rounded-full px-3.5 py-1.5 hover:bg-slate-100 transition-colors"
-            href="https://github.com/yldrmetless/LogickCheckAI"
+            href="https://github.com/yldrmetless/LogicCheckAIAPP"
             rel="noopener noreferrer"
             target="_blank"
           >

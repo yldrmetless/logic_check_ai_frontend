@@ -30,7 +30,7 @@ function Navbar() {
         {/* Center links */}
         <div className="hidden md:flex items-center gap-8">
           <Link
-            href="https://github.com/yldrmetless/LogickCheckAI"
+            href="https://github.com/yldrmetless/LogicCheckAIAPP"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-1.5"
@@ -43,7 +43,7 @@ function Navbar() {
         {/* Right */}
         <div className="flex items-center gap-4">
           <Link
-            href="https://github.com/yldrmetless/LogickCheckAI"
+            href="https://github.com/yldrmetless/LogicCheckAIAPP"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:flex items-center gap-1.5 text-sm font-medium text-slate-700 bg-slate-50 border border-slate-200 rounded-full px-3.5 py-1.5 hover:bg-slate-100 transition-colors"
