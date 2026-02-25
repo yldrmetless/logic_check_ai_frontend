@@ -251,17 +251,6 @@ exports[`Home Page matches the snapshot 1`] = `
             D
           </div>
         </div>
-        <p
-          class="text-sm text-slate-500"
-        >
-          Trusted by 
-          <span
-            class="font-semibold text-slate-700"
-          >
-            500+
-          </span>
-           indie hackers & builders
-        </p>
       </div>
     </section>
     <section

@@ -97,26 +97,6 @@ function HeroSection() {
           <ArrowRight className="w-4 h-4" />
         </Link>
       </div>
-
-      {/* Social proof */}
-      <div className="flex flex-col items-center gap-3 mt-12">
-        <div className="flex -space-x-3">
-          {["bg-blue-400", "bg-emerald-400", "bg-amber-400", "bg-purple-400"].map(
-            (color, i) => (
-              <div
-                key={i}
-                className={`w-9 h-9 rounded-full ${color} border-2 border-white flex items-center justify-center text-white text-xs font-bold`}
-              >
-                {String.fromCharCode(65 + i)}
-              </div>
-            )
-          )}
-        </div>
-        <p className="text-sm text-slate-500">
-          Trusted by <span className="font-semibold text-slate-700">500+</span>{" "}
-          indie hackers &amp; builders
-        </p>
-      </div>
     </section>
   );
 }
