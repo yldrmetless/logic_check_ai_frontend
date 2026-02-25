@@ -29,35 +29,28 @@ function Navbar() {
 
         {/* Center links */}
         <div className="hidden md:flex items-center gap-8">
-          <a
-            href="#features"
-            className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors"
-          >
-            Features
-          </a>
-          <a
-            href="https://github.com"
+          <Link
+            href="https://github.com/yldrmetless/LogickCheckAI"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-medium text-slate-600 hover:text-slate-900 transition-colors flex items-center gap-1.5"
           >
             <Github className="w-4 h-4" />
             GitHub
-          </a>
+          </Link>
         </div>
 
         {/* Right */}
         <div className="flex items-center gap-4">
-          <a
-            href="https://github.com"
+          <Link
+            href="https://github.com/yldrmetless/LogickCheckAI"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden sm:flex items-center gap-1.5 text-sm font-medium text-slate-700 bg-slate-50 border border-slate-200 rounded-full px-3.5 py-1.5 hover:bg-slate-100 transition-colors"
           >
             <Star className="w-3.5 h-3.5 text-amber-400 fill-amber-400" />
-            Star
-            <span className="text-slate-400 font-normal">2.4k</span>
-          </a>
+            Star on GitHub
+          </Link>
           <Link
             href="/login"
             className="text-sm font-medium text-slate-700 border border-slate-200 rounded-full px-5 py-2 hover:bg-slate-50 transition-colors"
@@ -346,31 +339,19 @@ function Footer() {
         </div>
 
         <p className="text-slate-400 text-sm text-center md:text-left">
-          © 2026 LogicCheck AI. Built for serious builders.
+          © {new Date().getFullYear()} LogicCheck AI. Built for serious builders.
         </p>
 
         {/* Right links */}
-        <div className="flex gap-6">
-          <a
-            href="/terms"
-            className="text-slate-400 text-sm hover:text-slate-600 transition-colors"
-          >
-            Terms of Service
-          </a>
-          <a
-            href="/privacy"
-            className="text-slate-400 text-sm hover:text-slate-600 transition-colors"
-          >
-            Privacy Policy
-          </a>
-          <a
-            href="https://github.com"
+        <div>
+          <Link
+            href="https://metehanyildirim.me"
             target="_blank"
             rel="noopener noreferrer"
             className="text-slate-400 text-sm hover:text-slate-600 transition-colors"
           >
             Creator Profile
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
